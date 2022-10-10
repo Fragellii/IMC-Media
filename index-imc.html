@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1 class="text-center">Cálculo do IMC</h1>
+    <form action="form_imc.php" method="post" class="form-group col-6 mx-auto">
+        <div class="form-group">
+            <label for="">Digite seu Peso</label>
+            <input type="number" class="form-control m-2" name="peso">
+        </div>
+        <div class="form-group">
+            <label for="">Digite sua Altura</label>
+            <input type="text" class="form-control m-2" name="altura">
+        </div>
+        <button class="btn btn-secondary m-2">Calcular</button>
+    </form>
+</body>
+
+</html>
